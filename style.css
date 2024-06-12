@@ -1,0 +1,130 @@
+body{
+    background-color:#CDD5E0 ;
+}
+
+.blue-background{
+    background-color:#4E709D ;
+    background-size: 180% 180%;
+}
+
+.navbar-nav a{
+   color:#FD8A8A;
+}
+
+
+.profile-img{
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 1px 15px #e246466b;
+    
+    
+}
+
+.ubuntu{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    display:flex;
+    justify-content:center
+      
+  }
+
+  #my-projects{
+    background-color:#89A4C7 ;
+    background-size: 180% 180%;
+   
+    
+  }
+  h1{
+    color:#FD8A8A ;
+  }
+
+  h2{
+    text-align: center;
+    padding-top: 2em;
+
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  .projects{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+  }
+
+  @media(max-width:1400px){
+    .projects{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+
+    
+  }
+  
+  .one,.two,.three{
+    padding:40px;
+
+  }
+
+  .one, .one a{
+    color: black;
+    text-decoration:none;
+  }
+
+  .two, .two a{
+    color:black;
+    text-decoration:none
+  }
+
+  .three, .three a{
+    color:black;
+    text-decoration:none
+  }
+
+  .projects  img{
+    border-radius: 15px;
+
+  }
+  #my-projects p{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 20px;
+  }
+
+  .bottom{
+    display:flex;
+    justify-content:center;
+    padding:48px 0 48px;
+    
+  }
+
+  .bottom a {
+    margin:10px 20px;
+    text-decoration: none;
+    color: #FD8A8A;
+    
+  }
+  
+  a:hover{
+    color: #FD8A8A;
+  }
+
+  a:active{
+    color: #FD8A8A;
+  }
+  
+  
